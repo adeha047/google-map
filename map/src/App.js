@@ -92,7 +92,7 @@ function App() {
 
     //this honeypot field isn't rendered to the DOM, so users don't see it, but it fools bots that fill it automatically
     honeypot: {
-      value: '',
+      value: 1,
       elementConfig: {
         className: classes.honeypot,
         label:
